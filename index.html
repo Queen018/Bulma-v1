@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doelen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div class="box is-flex is-justify-content-space-between">
+        <span class="icon-text column-start m-2">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+          <span><a href="index.html" class="is-size-6 has-text-white">Home</a></span>
+        </span>
+        <button class="button is-primary">
+          <a href="sign.html" class="has-text-black">Log In</a>
+        </button>
+    </div>
+    
+    <div class="box icon-text is-flex is-flex-direction-column m-2 mt-3">
+        <h2 class="m-1"><strong>Doelen van vandaag</strong></h2>
+        <div class="m-1">
+            <span class="icon has-text">
+             <i class="fas fa-check-square"></i>
+            </span>
+            <p class="block">Nieuwe taal leren - 2 uren</p>
+        </div>
+        <div class="m-1">
+            <span class="icon has-text">
+             <i class="fas fa-check-square"></i>
+            </span>
+            <p class="block">touching grass - 30 min</p>
+        </div>
+    </div>
+
+    <form class="box is-flex is-flex-direction-column m-2">
+        <h2 class="m-2"><strong>Voeg je doel toe</strong></h2>
+        <div class="field">
+          <label class="label m-1">Doel</label>
+          <div class="control m-1">
+            <input class="input" type="text"/>
+          </div>
+        </div>
+      
+        <div class="field">
+          <label class="label m-1">Tijd</label>
+          <div class="control m-1">
+            <input class="input" type="text" placeholder="00.00" />
+          </div>
+        </div>
+        <button class="button is-success">Toevoegen</button>
+    </form>
+  </body>
+</html>
